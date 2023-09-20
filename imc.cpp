@@ -4,9 +4,9 @@ int main()
 {
     float altura,peso,IMC;
     char k;
-    printf("Calculo do Indice de Massa Corporea - (IMC)\t\n\n");
+    printf("Calculo do Indice de Massa Corporea - (IMC)\t\n");
     do{
-    printf("Entre com a sua altura:");
+    printf("Entre com a sua altura: ");
    do{ scanf("%f",&altura);
    }while(altura<=0);   
     printf("Entre com o seu peso:");
@@ -31,8 +31,8 @@ int main()
       }
     }
     printf("Seu IMC é' %.2f\n",IMC);
-    printf("Deseja calcular outro IMC?-> (S)/(N):");
+    printf("Deseja calcular outro IMC?-> SIM (S)  /   NÃO (N):");
     scanf("%s",&k);
     }while(k=='S'||k=='s');
 system("pause");
-}                
+} 
